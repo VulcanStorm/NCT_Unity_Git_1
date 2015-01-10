@@ -148,8 +148,9 @@ GameObject:
   - 33: {fileID: 1294478573}
   - 65: {fileID: 1294478572}
   - 23: {fileID: 1294478571}
+  - 114: {fileID: 1294478575}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: bob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -206,6 +207,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &1294478575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1294478570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3510900e208f12f43a5e37ba677ddc1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAwesomeVariable: -3
 --- !u!1 &1417385363
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,7 +231,7 @@ GameObject:
   - 64: {fileID: 1417385365}
   - 23: {fileID: 1417385364}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -236,7 +249,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e508ebdec0192bc4799dcbd2a0c550ec, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
